@@ -19,3 +19,14 @@ python3 -m venv flaskproject1
 ```bash
 python3 -m venv venv
 ```
+# How to activate venv system
+* if you want to activate venv system in ubuntu
+
+    ```bash
+    source <the name you give>/bin/activate
+    ```
+* I have named berat to venv. So I am supposed to use "berat" name for example:
+    ```bash
+    source berat/bin/activate
+    ```
+
