@@ -29,4 +29,8 @@ python3 -m venv venv
     ```bash
     source berat/bin/activate
     ```
+* if you leave virtualvenv:
+    ```bash
+    deactive
+    ```
 
