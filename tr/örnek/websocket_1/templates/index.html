@@ -9,7 +9,13 @@
 <body>
   <script src="{{ url_for('static', filename='socket.io.js') }}"></script>
   <script>
+    /*socketio nun bağlanması */
     var socket = io("http://10.11.22.179:5000")
+    /* socket io nun kendi eventleri var ve bu eventler connect ve message dır 
+    * bağlandığında send komutunu atıyor ve send komutu emitten farklı 
+    * send komutu direkt message eventine veri atıyor 
+    * emit de ise istenilen evente veri aktarılabiliyor
+    */
     socket.on('connect',function(){
       socket.send("user has connected")
     });
